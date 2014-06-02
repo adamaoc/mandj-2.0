@@ -1,0 +1,1 @@
+<h2 class="slogan">Your <strong>Dallas, Texas</strong> home contractors.</h2>

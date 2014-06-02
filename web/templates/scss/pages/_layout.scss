@@ -1,0 +1,147 @@
+/*
+** Base Styles
+*/
+body {
+	background: url(../img/bg.jpg);
+}
+
+
+/*
+** Site Header
+*/
+.siteheader {
+	background-color: #fff;
+	box-shadow: 0px 3px 20px 0px #888;
+}
+
+/*
+** Site Navigation
+*/
+.site-nav {
+	height: auto;
+	background-color: $secondary-color;
+	padding: 0;
+	@media #{$medium-only} {
+		margin-top: 1.1em;
+	}
+	@media #{$large-up} {
+		margin-top: 1.8em;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		@extend .clearfix;
+	}
+	li {
+		float: left;
+		width: 100%;
+		@media #{$medium-up} { 
+			width: 20%;
+		}
+		a {
+			display: block;
+			width: 100%;
+			padding: 0.5em;
+			color: #fff;
+			font-size: 0.9em;
+			text-align: center;
+			@media #{$large-up} { 
+				text-align: left;
+				padding-left: 1em;
+			}
+			&:hover {
+				background-color: $primary-color;
+			} 
+			&.active {
+				background-color: darken($secondary-color, 10%);
+			}
+			span {
+				@extend .show-for-large-up;
+				font-size: 0.7em;
+			}
+		}
+	}
+}
+
+/*
+** Site Logo 
+*/
+.brand {
+	@extend .clearfix;
+	max-width: 7em;
+	margin: 0 auto;
+	@media #{$medium-up} {
+		margin: 0;
+	}
+	.brand-main {
+		color: $primary-color;
+		float: left;
+		font-size: 1.8em;
+		@media #{$medium-only} {
+			font-size: 1.3em;
+		}
+	}
+	.brand-sec {
+		color: $secondary-color;
+		float: left;
+		font-size: 0.5em;
+		max-width: 7em;
+		padding-top: 1.2em;
+		@media #{$medium-only} {
+			font-size: 0.3em;
+			max-width: 6.3em;
+			padding-top: 1.2em;
+		}
+	}
+}
+
+/*
+** Footer styles
+*/
+.sitefooter {
+	margin: 2em auto;
+	text-align: center;
+	p {
+		margin: 0;
+		font-size: 80%;
+	}
+	.ampnetlink {
+		a {
+			color: $body-font-color;
+			span {
+				color: $primary-color;
+			}
+		}
+	}
+}
+.footer-links {
+	ul {
+		list-style: none;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 26em;
+	}
+	li {
+		float: left;
+		border-left: 1px solid $light;
+		&:first-child {
+			border-left: none;
+		}
+		a {
+			padding: 1em 0.5em;
+			span {
+				display: none;
+			}
+		}
+	}
+}
+/*
+** Basic Images Styles
+*/
+.img-wrap {
+	img {
+		width: 100%;
+	}
+}
+

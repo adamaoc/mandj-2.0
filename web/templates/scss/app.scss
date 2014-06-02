@@ -1,0 +1,28 @@
+@import "settings";
+
+@import "components/bp-mixin",
+		"components/typography";
+
+/*
+** Foundation Settings Overrides **
+*/
+/* Teal Green Palette colors */
+$light: #a0a0ad;
+$dark: #3b3b45;
+$orange: #ffae1a;
+
+$primary-color: $orange;
+$secondary-color: $dark;
+$body-font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+$body-bg: #F6F6F6;
+/*
+** Import Foundation Components Used **
+*/
+@import "foundation";
+
+/*
+** Import Pages and custom components **
+*/
+@import "pages/layout",
+		"pages/homepage";
+

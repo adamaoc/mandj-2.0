@@ -1,0 +1,154 @@
+.slogan {
+	text-align: center;
+	margin: 1.4em;
+	color: $light;
+	strong {
+		color: $primary-color;
+	}
+}
+
+.main-banner {
+	background-image: url(http://org-websites.com/assets/img/org-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+/* Orbit overrides */
+.orbit-container {
+	min-height: 18em;
+	/*.orbit-slides-container {
+		min-height: 18em;
+	}*/
+	.main-banner-content li {
+		padding-top: 1.5em;
+	}
+	.orbit-timer, .orbit-prev, .orbit-next, .orbit-slide-number {
+		display: none;
+	}
+	.img-wrap {
+		img {
+			width: 350px;
+		}
+	}
+}
+
+/* Enticement block */
+.enticements {
+	padding-top: 2em;
+	h2 {
+		text-align: center;
+	}
+	.jobs-list {
+		overflow: hidden;
+		@extend .row;
+		list-style: none;
+		li {
+			text-align: center;
+			@extend .small-6;
+			@extend .medium-3;
+			@extend .columns;
+		}
+		.icon {
+			width: 5em;
+			height: 5em;
+			background-color: $primary-color;
+			border-radius: 100%;
+			display: block;
+			margin: 1em auto;
+			display: none;
+		}
+		h4 {
+			font-size: 95%;
+			color: darken($light, 25%);
+		}
+		p {
+			font-size: 75%;
+			color: darken($light, 10%);
+		}
+	}
+	.andmore {
+		color: $light;
+		text-align: center;
+		strong {
+			color: $primary-color;
+		}
+	}
+}
+/*
+** About Snippet Section
+*/
+.about-text {
+	background-color: $secondary-color;
+	color: #fff;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	h2 {
+		color: #fff;
+		strong {
+			color: $primary-color;
+		}
+	}
+}
+
+/*
+** Interior Section 
+*/
+.interior-section, .exterior-section {
+	.button.tiny {
+		margin-top: 0.3em;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-right: 0;
+		height: 3em;
+		line-height: 3em;
+		.more-btn {
+			display: inline-block;
+			width: 2em;
+			height: 3em;
+			line-height: 3em;
+			margin-left: 1em;
+			background-color: $primary-color;
+		}
+	}
+}
+
+/*
+** Testimonial
+*/
+.testimonial {
+	.title {
+		color: lighten($light, 25%);
+		text-align: center;
+		margin: 0;
+		margin-bottom: -0.4em;
+	}
+	blockquote {
+		border: none;
+		max-width: 45em;
+		background: lighten($light, 25%);
+		padding: 1em 4em;
+		margin: 0 auto;
+		border-radius: 4px;
+		position: relative;
+
+		p {
+			font-style: italic;
+		}
+		.author {
+			font-size: 90%;
+		}
+		.quote {
+			background-image: url(/web/assets/img/quotation_marks.png);
+			background-repeat: no-repeat;
+			display: block;
+			width: 70px;
+			height: 80px;
+			position: absolute;
+			background-size: contain;
+			left: -12px;
+			top: -12px;
+		}
+	}
+}
