@@ -12,22 +12,21 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-}
-/* Orbit overrides */
-.orbit-container {
-	min-height: 18em;
-	/*.orbit-slides-container {
-		min-height: 18em;
-	}*/
-	.main-banner-content li {
-		padding-top: 1.5em;
+	padding: 2em;
+	.main-banner-content {
+		list-style: none;
 	}
-	.orbit-timer, .orbit-prev, .orbit-next, .orbit-slide-number {
-		display: none;
+	.info {
+		@extend .small-12; 
+		@extend .medium-6; 
+		@extend .columns;
 	}
 	.img-wrap {
+		@extend .small-12;
+		@extend .medium-6;
+		@extend .columns; 
 		img {
-			width: 350px;
+			max-width: 21.25em;
 		}
 	}
 }
