@@ -3,7 +3,16 @@
 }
 
 .contactform {
-	.error {
+	.errormessage {
 		display: none;
 	}
+	.errorunder {
+		display: none;
+	}
+	.error {
+		.errorunder {
+			display: block;
+		}
+	}
+
 }

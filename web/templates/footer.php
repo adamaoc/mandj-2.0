@@ -14,6 +14,10 @@
         
         <script src="/web/assets/js/main.min.js"></script>
 
+        <?php if($is_contact) : ?>
+		<script src="/web/assets/js/contact.min.js"></script>
+    	<?php endif; ?>
+
         <script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-9674179-2']);

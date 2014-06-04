@@ -23,7 +23,5 @@ $GLOBALS['config'] = array(
 	)
 );
 
-
-
-require_once $_SERVER['DOCUMENT_ROOT']."/web/_flex/functions/metas_and_titles.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/web/_flex/data/metas_and_titles.php";
 require_once $_SERVER['DOCUMENT_ROOT']."/web/_flex/data/navlinks.php";

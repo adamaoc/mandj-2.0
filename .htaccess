@@ -15,6 +15,9 @@ RewriteRule ^about/$ ./web/index.php [L]
 RewriteRule ^contact$ ./web/index.php [L]
 RewriteRule ^contact/$ ./web/index.php [L]
 
+RewriteRule ^success$ ./web/index.php [L]
+RewriteRule ^success/$ ./web/index.php [L]
+
 RewriteRule ^works$ ./web/index.php [L]
 RewriteRule ^works/$ ./web/index.php [L]
 

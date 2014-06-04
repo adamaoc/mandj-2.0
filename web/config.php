@@ -10,3 +10,6 @@ $host = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "FlexHub";
+
+// Email to address //
+$emailtoaddress = "adamaoc@gmail.com";

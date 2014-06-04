@@ -6,6 +6,9 @@ $allworks = array(
 			"title" => "Hardwood Floor Project",
 			"thumb" => "mandj-dfw-03-thumb.jpg",
 			"link" => "/works/hardwood-floor-project/",
+			"desc" => "
+				<p>We've done a lot of hardwood floors in homes all around DFW. Here are just a few example photos showing a project from start to finish and what we were able to accomplish.</p>
+			",
 			"gallery" => array(
 				1 => "mandj-dfw-03",
 				2 => "mandj-dfw-04",
