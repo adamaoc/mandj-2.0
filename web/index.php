@@ -25,10 +25,12 @@ if($is_home) {
         require_once "templates/parts/exterior-snippit.php";
     }
 }else if($is_local) {
-    require_once "_flex/functions/GetWork.php";
     $page_title = $is_local['title'];
     $page_blurb = $is_local['blurb'];
-    require_once "templates/work/index.php";
+    require_once "templates/header.php";
+    require_once "templates/pages/about.php";
+    require_once "templates/parts/enticement.php";
+    require_once "templates/parts/testimonial.php";
 }else if($is_contact) {
     require_once "templates/header.php";
     require_once "templates/pages/contact.php";
@@ -41,7 +43,12 @@ if($is_home) {
     require_once "templates/parts/exterior-snippit.php";
     require_once "templates/parts/testimonial.php";
 }else {
-    require_once "templates/404.php";
+    require_once $_SERVER['DOCUMENT_ROOT']."/web/_flex/data/work-data.php";
+    require_once "templates/header.php";
+    require_once "templates/pages/404.php";
+    require_once "templates/parts/interior-snippit.php";
+    require_once "templates/parts/exterior-snippit.php";
+    require_once "templates/parts/testimonial.php";
 }
 require_once "templates/footer.php";
 ?>  

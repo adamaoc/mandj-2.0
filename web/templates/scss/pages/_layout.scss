@@ -5,6 +5,9 @@ body {
 	background: url(../img/bg.jpg);
 }
 
+strong {
+	color: $primary-color;
+}
 
 /*
 ** Site Header
@@ -115,12 +118,14 @@ body {
 		}
 	}
 }
-.footer-links {
+.footer-links, .local-links {
+	text-align: center;
 	ul {
 		list-style: none;
 		overflow: hidden;
 		margin: 0 auto;
-		width: 31em;
+		display: inline-block;
+		width: auto;
 	}
 	li {
 		float: left;
@@ -134,6 +139,15 @@ body {
 				display: none;
 			}
 		}
+	}
+}
+.local-links {
+	li {
+		line-height: 1.2;
+		margin: 0.5em 0;
+	}
+	a {
+		font-size: 0.8em;
 	}
 }
 /*

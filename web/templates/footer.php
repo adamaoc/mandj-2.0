@@ -3,20 +3,29 @@
 		<ul>
 			<?php 
 
-foreach ($footerlinks as $name => $url) {
-	$class = NULL;
-	if($_SERVER['REQUEST_URI'] == $url) {
-		$class = ' class="active"';
-	} 
-	?>
-	<li><a href="<?php echo $url; ?>"<?php if(!is_null($class)) { echo $class; } ?>><?php echo $name; ?></a>
-<?php 
-} // off foreach  ?>
+			foreach ($footerlinks as $name => $url) {
+				$class = NULL;
+				if($_SERVER['REQUEST_URI'] == $url) {
+					$class = ' class="active"';
+				} 
+				?>
+				<li><a href="<?php echo $url; ?>"<?php if(!is_null($class)) { echo $class; } ?>><?php echo $name; ?></a></li>
+			<?php 
+			} // off foreach  ?>
+		</ul>
+	</nav>
+	<nav class="local-links">
+		<ul>
+			<?php 
+			foreach ($locallinks as $name => $url) { ?>
+				<li><a href="<?php echo $url; ?>"><?php echo $name; ?></a></li>
+			<?php }
+			?>
 		</ul>
 	</nav>
 	<p><em>&copy;2014 all rights reserved</em></p>
 	<p><em>M&amp;J Construction and Remodeling - Dallas, Texas home Contractors</em></p>
-	<p class="ampnetlink"><em><a href="http://ampnetmedia.com"><span>ampnet(media)</span> | Dallas, Texas Web Design, Development, and SEO.</a></em></p>
+	<p class="ampnetlink"><em><a href="http://ampnetmedia.com" target="_blank"><span>ampnet(media)</span> | Dallas, Texas Web Design, Development, and SEO.</a></em></p>
 </footer>
 
         <?php //<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> ?>

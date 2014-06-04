@@ -16,10 +16,10 @@ $sociallinks = array(
 );
 
 $locallinks = array(
-	"Forney" => 'forney-tx/',
-	"Dallas" => 'dallas-tx/',
-	"Heath" => 'heath-tx/',
-	"Rockwall" => 'rockwall-tx/'
+	"Forney, TX" => '/local-home-contractor-in-forney-tx/',
+	"Dallas, TX" => '/local-home-contractor-in-dallas-tx/',
+	"Heath, TX" => '/local-home-contractor-in-heath-tx/',
+	"Rockwall, TX" => '/local-home-contractor-in-rockwall-tx/'
 );
 
 $footerlinks = $navlinks;

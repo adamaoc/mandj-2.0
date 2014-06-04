@@ -4,7 +4,13 @@
 	<h1 class="small-12 medium-12 columns">About M&amp;J DFW</h1>
 		
 	<article class="about-full small-12 medium-6 columns">
-		<p>Your Dallas, Texas home contractors.</p>
+		<?php 
+			if(isset($page_title)){
+				echo "<h3>".$page_title."</h3>";
+			}else{
+				echo "<h3>Your <strong>Dallas, Texas</strong> home contractors.</h3>";
+			}
+		?>
 		<p>We're dedicated to our work and take quality very seriously. Every job we take on is approched with the same amount of dedication and skill. We service locations all over DFW including Dallas, Rockwall, Heath, Richardson, Plano, Irving, Forney, and many more!</p>
 	</article>
 	<div class="img-wrap small-12 medium-6 columns">

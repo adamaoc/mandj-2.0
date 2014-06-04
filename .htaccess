@@ -30,4 +30,17 @@ RewriteRule ^works/exterior/$ ./web/index.php [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ /web/index.php/works/?filename=$1 [NC,QSA,L]
 
+
+RewriteRule ^local-home-contractor-in-forney-tx$ ./index.php [L]
+RewriteRule ^local-home-contractor-in-forney-tx/$ ./index.php [L]
+
+RewriteRule ^local-home-contractor-in-dallas-tx$ ./index.php [L]
+RewriteRule ^local-home-contractor-in-dallas-tx/$ ./index.php [L]
+
+RewriteRule ^local-home-contractor-in-rockwall-tx$ ./index.php [L]
+RewriteRule ^local-home-contractor-in-rockwall-tx/$ ./index.php [L]
+
+RewriteRule ^local-home-contractor-in-heath-tx$ ./index.php [L]
+RewriteRule ^local-home-contractor-in-heath-tx/$ ./index.php [L]
+
 </IfModule>

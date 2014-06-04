@@ -22,7 +22,7 @@ define('IS_SUCCESS', (bool)strstr($_SERVER['REQUEST_URI'], '/success/'));
 define('IS_WORK_INT', (bool)strstr($_SERVER['REQUEST_URI'], '/works/interior/'));
 define('IS_WORK_EXT', (bool)strstr($_SERVER['REQUEST_URI'], '/works/exterior/'));
 
-define('IS_BLOG', (bool)strstr($_SERVER['REQUEST_URI'], '/blog/'));
+// define('IS_BLOG', (bool)strstr($_SERVER['REQUEST_URI'], '/blog/'));
 
 // $filename = $_GET['filename'];
 // $postname = $filename;
@@ -44,7 +44,7 @@ $is_success = IS_SUCCESS;
 $is_blog = IS_BLOG;
 $is_work_int = IS_WORK_INT;
 $is_work_ext = IS_WORK_EXT;
-// $is_local = defineLocals();
+$is_local = defineLocals();
 
 // Define FLEX Classes // 
 define('FLEX_ROOT', $docPath);
