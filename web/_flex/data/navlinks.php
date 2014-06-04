@@ -21,3 +21,6 @@ $locallinks = array(
 	"Heath" => 'heath-tx/',
 	"Rockwall" => 'rockwall-tx/'
 );
+
+$footerlinks = $navlinks;
+$footerlinks['All Work'] = "/works/";

@@ -1,7 +1,17 @@
 <footer class="sitefooter row">
 	<nav class="footer-links">
 		<ul>
-			<?php require "nav.php"; ?>
+			<?php 
+
+foreach ($footerlinks as $name => $url) {
+	$class = NULL;
+	if($_SERVER['REQUEST_URI'] == $url) {
+		$class = ' class="active"';
+	} 
+	?>
+	<li><a href="<?php echo $url; ?>"<?php if(!is_null($class)) { echo $class; } ?>><?php echo $name; ?></a>
+<?php 
+} // off foreach  ?>
 		</ul>
 	</nav>
 	<p><em>&copy;2014 all rights reserved</em></p>
