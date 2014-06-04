@@ -1,3 +1,5 @@
+<IfModule mod_rewrite.c>
+
 Options +FollowSymLinks
 RewriteEngine On
 
@@ -6,3 +8,23 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 
 RewriteRule ^$ ./web/index.php [L]
 RewriteRule ^/?$ ./web/index.php [L]
+
+RewriteRule ^about$ ./web/index.php [L]
+RewriteRule ^about/$ ./web/index.php [L]
+
+RewriteRule ^contact$ ./web/index.php [L]
+RewriteRule ^contact/$ ./web/index.php [L]
+
+RewriteRule ^works$ ./web/index.php [L]
+RewriteRule ^works/$ ./web/index.php [L]
+
+RewriteRule ^works/interior$ ./web/index.php [L]
+RewriteRule ^works/interior/$ ./web/index.php [L]
+
+RewriteRule ^works/exterior$ ./web/index.php [L]
+RewriteRule ^works/exterior/$ ./web/index.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /web/index.php/works/?filename=$1 [NC,QSA,L]
+
+</IfModule>

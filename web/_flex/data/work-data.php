@@ -2,77 +2,77 @@
 
 $allworks = array(
 	"interior" => array(
-		1 => array(
+		"hardwood-floor-project" => array(
 			"title" => "Hardwood Floor Project",
 			"thumb" => "mandj-dfw-03-thumb.jpg",
-			"link" => "/work/hardwood-floor-project/",
+			"link" => "/works/hardwood-floor-project/",
 			"gallery" => array(
-				1 => "mandj-dfw-03.jpg",
-				2 => "mandj-dfw-04.jpg",
-				3 => "mandj-dfw-05.jpg",
-				4 => "mandj-dfw-06.jpg",
-				5 => "mandj-dfw-07.jpg",
-				6 => "mandj-dfw-08.jpg"
+				1 => "mandj-dfw-03",
+				2 => "mandj-dfw-04",
+				3 => "mandj-dfw-05",
+				4 => "mandj-dfw-06",
+				5 => "mandj-dfw-07",
+				6 => "mandj-dfw-08"
 			)
 		),
-		2 => array(
+		"bathroom-remodeling" => array(
 			"title" => "Bathroom Remodeling",
 			"thumb" => "mandj-dfw-019-thumb.jpg",
-			"link" => "/work/interior/bathroom-remodeling/",
+			"link" => "/works/bathroom-remodeling/",
 			"gallery" => array(
-				1 => "mandj-dfw-012.jpg",
-				2 => "mandj-dfw-013.jpg",
-				3 => "mandj-dfw-014.jpg",
-				4 => "mandj-dfw-015.jpg",
-				5 => "mandj-dfw-016.jpg",
-				6 => "mandj-dfw-017.jpg",
-				7 => "mandj-dfw-018.jpg",
-				8 => "mandj-dfw-019.jpg",
-				9 => "mandj-dfw-020.jpg"
+				1 => "mandj-dfw-012",
+				2 => "mandj-dfw-013",
+				3 => "mandj-dfw-014",
+				4 => "mandj-dfw-015",
+				5 => "mandj-dfw-016",
+				6 => "mandj-dfw-017",
+				7 => "mandj-dfw-018",
+				8 => "mandj-dfw-019",
+				9 => "mandj-dfw-020"
 			)
 		),
-		3 => array(
+		"patio-door-install" => array(
 			"title" => "Patio Door Install",
 			"thumb" => "mandj-dfw-022-thumb.jpg",
-			"link" => "/work/interior/patio-door-install",
+			"link" => "/works/patio-door-install/",
 			"gallery" => array(
-				1 => "mandj-dfw-021.jpg",
-				2 => "mandj-dfw-022.jpg",
-				3 => "mandj-dfw-023.jpg"
+				1 => "mandj-dfw-021",
+				2 => "mandj-dfw-022",
+				3 => "mandj-dfw-023"
 			)
 		),
-		4 => array(
+		"large-window-install" => array(
 			"title" => "Large Window Install",
 			"thumb" => "mandj-dfw-024-thumb.jpg",
-			"link" => "/work/interior/large-window-install/",
+			"link" => "/works/large-window-install/",
 			"gallery" => array(
-				1 => "mandj-dfw-024.jpg",
-				2 => "mandj-dfw-01.jpg",
-				3 => "mandj-dfw-02.jpg"
+				1 => "mandj-dfw-024",
+				2 => "mandj-dfw-01",
+				3 => "mandj-dfw-02"
 			)
 		)
 	),
 	"exterior" => array(
-		1 => array(
+		"concrete-patio-design" => array(
 			"title" => "Concrete Patio Design",
 			"thumb" => "mandj-dfw-09-thumb.jpg",
-			"link" => "/work/exterior/concrete-patio-design/",
+			"link" => "/works/concrete-patio-design/",
 			"gallery" => array(
-				1 => "mandj-dfw-09.jpg",
-				2 => "mandj-dfw-010.jpg",
-				3 => "mandj-dfw-011.jpg"
+				1 => "mandj-dfw-09",
+				2 => "mandj-dfw-010",
+				3 => "mandj-dfw-011"
 			)
 		),
-		2 => array(
+		"driveway-expantion" => array(
 			"title" => "Driveway Expantion",
 			"thumb" => "mandj-dfw-025-thumb.jpg",
-			"link" => "/work/exterior/driveway-expantion/",
+			"link" => "/works/driveway-expantion/",
 			"gallery" => array(
-				1 => "mandj-dfw-025.jpg",
-				2 => "mandj-dfw-026.jpg",
-				3 => "mandj-dfw-027.jpg",
-				4 => "mandj-dfw-028.jpg",
-				5 => "mandj-dfw-029.jpg"
+				1 => "mandj-dfw-025",
+				2 => "mandj-dfw-026",
+				3 => "mandj-dfw-027",
+				4 => "mandj-dfw-028",
+				5 => "mandj-dfw-029"
 			)
 		)
 	)

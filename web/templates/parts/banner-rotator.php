@@ -14,7 +14,7 @@
 								<a href="<?php echo $data['link']; ?>" class="button radius">See more &raquo;</a>
 							</div>
 							<div class="img-wrap">
-								<img src="/assets/img/loading.gif" data-original="<?php echo $data['img']; ?>" class="right lazy" />
+								<img src="/web/assets/img/loading.gif" data-original="<?php echo $data['img']; ?>" class="right lazy" />
 							</div>
 						</li>
 					<?php

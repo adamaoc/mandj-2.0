@@ -2,8 +2,8 @@
 
 $navlinks = array(
 	"Home <span>getting started</span>" => "/",
-	"Interior <span>a look inside</span>" => "/work/interior/",
-	"Exterior <span>beautiful outdoors</span>" => "/work/exterior/",
+	"Interior <span>a look inside</span>" => "/works/interior/",
+	"Exterior <span>beautiful outdoors</span>" => "/works/exterior/",
 	"About M&J<span>learn more</span>" => "/about/",
 	"Contact Us<span>get in touch</span>" => "/contact/"
 );

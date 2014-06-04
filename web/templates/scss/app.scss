@@ -1,11 +1,14 @@
 @import "settings";
 
 @import "components/bp-mixin",
-		"components/typography";
+		"components/typography",
+		"components/pagesetup";
 
 /*
 ** Foundation Settings Overrides **
 */
+$global-radius: 5px;
+
 /* Teal Green Palette colors */
 $light: #a0a0ad;
 $dark: #3b3b45;
@@ -24,5 +27,6 @@ $body-bg: #F6F6F6;
 ** Import Pages and custom components **
 */
 @import "pages/layout",
-		"pages/homepage";
+		"pages/homepage",
+		"pages/about";
 

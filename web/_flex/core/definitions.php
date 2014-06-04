@@ -16,19 +16,20 @@ $currentpage .= $_SERVER["REQUEST_URI"];
 $is_home = ($homepage==$currentpage);
 define('IS_HOME', $is_home);
 define('IS_ABOUT', (bool)strstr($_SERVER['REQUEST_URI'], '/about/'));
-define('IS_WORKS', (bool)strstr($_SERVER['REQUEST_URI'], '/work/'));
+define('IS_WORKS', (bool)strstr($_SERVER['REQUEST_URI'], '/works/'));
 define('IS_CONTACT', (bool)strstr($_SERVER['REQUEST_URI'], '/contact/'));
 define('IS_SUCCESS', (bool)strstr($_SERVER['REQUEST_URI'], '/success/'));
-// define('IS_404', (bool)strstr($_SERVER['REQUEST_URI'], '/404/'));
+define('IS_WORK_INT', (bool)strstr($_SERVER['REQUEST_URI'], '/works/interior/'));
+define('IS_WORK_EXT', (bool)strstr($_SERVER['REQUEST_URI'], '/works/exterior/'));
 
 define('IS_BLOG', (bool)strstr($_SERVER['REQUEST_URI'], '/blog/'));
 
-$filename = $_GET['filename'];
-$postname = $filename;
-if(!empty($postname)) {
-  define('IS_POST', (bool)strstr($_SERVER['REQUEST_URI'], $postname));
-  $is_post = IS_POST;
-}
+// $filename = $_GET['filename'];
+// $postname = $filename;
+// if(!empty($postname)) {
+//   define('IS_POST', (bool)strstr($_SERVER['REQUEST_URI'], $postname));
+//   $is_post = IS_POST;
+// }
 
 $workname = $_GET['filename'];
 if(!empty($workname)) {
@@ -41,7 +42,8 @@ $is_works = IS_WORKS;
 $is_contact = IS_CONTACT;
 $is_success = IS_SUCCESS;
 $is_blog = IS_BLOG;
-// $is_404 = IS_404;
+$is_work_int = IS_WORK_INT;
+$is_work_ext = IS_WORK_EXT;
 // $is_local = defineLocals();
 
 // Define FLEX Classes // 
