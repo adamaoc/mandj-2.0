@@ -27,9 +27,6 @@
 	<p><em>M&amp;J Construction and Remodeling - Dallas, Texas home Contractors</em></p>
 	<p class="ampnetlink"><em><a href="http://ampnetmedia.com" target="_blank"><span>ampnet(media)</span> | Dallas, Texas Web Design, Development, and SEO.</a></em></p>
 </footer>
-
-        <?php //<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> ?>
-        
         
         <script src="/web/assets/js/main.min.js"></script>
 
@@ -38,15 +35,14 @@
     	<?php endif; ?>
 
         <script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-9674179-2']);
-			_gaq.push(['_trackPageview']);
+      		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-        </script>
+      		ga('create', 'UA-9674179-13', 'mandjconstructionremodeling.com');
+      		ga('send', 'pageview');
+
+    </script>
     </body>
 </html>

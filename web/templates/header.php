@@ -8,14 +8,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>M&amp;J - <?php //echo titleGen(); ?> / Your Dallas, Texas home contractor</title>
+        <title>M&amp;J - <?php echo titleGen(); ?> </title>
         
-        <meta name="description" content="<?php //echo metaDesc(); ?>">
+        <meta name="description" content="<?php echo metaDesc(); ?>">
         <meta name="author" content="ampnetmedia.com">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="/assets/img/favicon.ico">
+        <link rel="shortcut icon" href="/web/assets/img/favicon.ico">
 
         <meta name="google-site-verification" content="fSdVe-xL70WGQ4EdrP7dZemxzq1oYbc_GI48aFY1_0w" />
         <meta name="msvalidate.01" content="B038142E19DDC9427F7BB86F8022EE9C" />
@@ -26,7 +26,7 @@
         <link rel="apple-touch-icon" sizes="76x76" href="/web/assets/img/touch-icon-ipad.png" />
         <link rel="apple-touch-icon" sizes="120x120" href="/web/assets/img/touch-icon-iphone-retina.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/web/assets/img/touch-icon-ipad-retina.png" />
-        <script src="/web/bower_components/modernizr/modernizr.js"></script>
+        <script src="/web/assets/js/modernizr.min.js"></script>
 
         <?php //<script src="js/vendor/modernizr-2.6.2.min.js"></script> ?>
         <?php //<meta property="twitter:account_id" content="32184368" /> ?>

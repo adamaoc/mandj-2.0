@@ -46,7 +46,8 @@ module.exports = function(grunt) {
 			my_target: {
 				files: {
 					'assets/js/main.min.js': ['bower_components/jquery/dist/jquery.min.js', 'bower_components/foundation/js/foundation.min.js', 'templates/js/lazyload.js', 'templates/js/app.js'],
-					'assets/js/contact.min.js': ['templates/js/email-ajax.js']
+					'assets/js/contact.min.js': ['templates/js/email-ajax.js'],
+					'assets/js/modernizr.min.js': ['bower_components/modernizr/modernizr.js']
 				}
 			}
 		},
