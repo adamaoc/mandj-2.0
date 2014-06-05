@@ -68,4 +68,4 @@ $blog_dir = DOC_ROOT.'/_flex/blog/posts/';
 define('BLOG_DIR', $blog_dir);
 
 // Define city list
-define('CITY_LIST', "Dallas, Kaufman, Forney, Rockwall, Heath, and more");
+define('CITY_LIST', "Dallas, Rockwall, Heath, Richardson, Plano, Irving, Forney, and more");

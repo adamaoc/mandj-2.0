@@ -4,17 +4,17 @@
 		<li>
 			<span class="icon"></span>
 			<h4>Driveways</h4>
-			<p>Looking have your driveway expanded or reserfaced? We've helped many homeowners around DFW do just that! Check out our "exterior" section for more details.</p>
+			<p>Looking have your driveway expanded or resurfaced? We've helped many homeowners around DFW do just that! Check out our "exterior" section for more details.</p>
 		</li>
 		<li>
 			<span class="icon"></span>
 			<h4>Sheetrock</h4>
-			<p>Did you put a hole in your wall or looking to shetrock your garage? any renovations involving sheetrock, we can handle! Check out our "interior" section for more information!</p>
+			<p>Did you put a hole in your wall or looking to sheetrock your garage? any renovations involving sheetrock, we can handle! Check out our "interior" section for more information!</p>
 		</li>
 		<li>
 			<span class="icon"></span>
 			<h4>Patios</h4>
-			<p>Are you looking at putting a patio, or expanding a patio in your backyard? We've helped many homeowners in DFW do just that! Make you yard an oasis with a beautiful new patio.</p>
+			<p>Are you looking at putting a patio, or expanding a patio in your backyard? We've helped many homeowners in DFW do just that! Make your yard an oasis with a beautiful new patio.</p>
 		</li>
 		<li>
 			<span class="icon"></span>
@@ -24,7 +24,7 @@
 		<li>
 			<span class="icon"></span>
 			<h4>Slabs</h4>
-			<p>Do you need to poor a slab for a exterior structure, or maybe you want to add a firepit to your backyard paradice? We can help with quality work and impecable accuracy.</p>
+			<p>Do you need to pour a slab for a exterior structure, or maybe you want to add a firepit to your backyard paradise? We can help with quality work and impeccable accuracy.</p>
 		</li>
 		<li>
 			<span class="icon"></span>
@@ -39,7 +39,7 @@
 		<li>
 			<span class="icon"></span>
 			<h4>Wood Floors</h4>
-			<p>Looking to install hardwood or laminate floors in your house or condo? One of our most asked for jobs is hardwood instalation and we have the eye and talent to get it right! Check out our "interior" section for more details.</p>
+			<p>Looking to install hardwood or laminate floors in your house or condo? One of our most asked for jobs is hardwood installation and we have the eye and talent to get it right! Check out our "interior" section for more details.</p>
 		</li>
 	</ul>
 	<h4 class="andmore">&amp; <strong>much</strong> more!</h4>

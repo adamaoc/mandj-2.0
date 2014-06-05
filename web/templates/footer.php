@@ -2,7 +2,6 @@
 	<nav class="footer-links">
 		<ul>
 			<?php 
-
 			foreach ($footerlinks as $name => $url) {
 				$class = NULL;
 				if($_SERVER['REQUEST_URI'] == $url) {
@@ -43,6 +42,6 @@
       		ga('create', 'UA-9674179-13', 'mandjconstructionremodeling.com');
       		ga('send', 'pageview');
 
-    </script>
+    	</script>
     </body>
 </html>

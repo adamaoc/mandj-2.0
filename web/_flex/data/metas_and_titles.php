@@ -22,10 +22,10 @@ function titleGen() {
 
 function metaDesc() {
 	
-	$desc = "We ";
+	$desc = "We're dedicated to our work and take quality very seriously. Every job we take on is approched with the same amount of dedication and skill. We service locations all over DFW including ".CITY_LIST."!";
 
 	if ($uri == '/contact/') {
-		$desc = "Have questions or concerns for me? Shoot me an email here and I'll get back with you as soon as possible. Give me your name, email address, city where you reside, and a detailed message here. I love hearing from my clients and potential clients, so if you have any questions or concerns please do not hesitate to contact me!";
+		$desc = "Have questions or concerns for us? Shoot us an email here and we'll get back with you as soon as possible. Give us your name, email address, city where you reside, and a detailed message here. We love hearing from our clients and potential clients, so if you have any questions or concerns please do not hesitate to contact!";
 	}
 
 	return $desc;

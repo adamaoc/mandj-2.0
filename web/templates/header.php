@@ -17,8 +17,9 @@
 
         <link rel="shortcut icon" href="/web/assets/img/favicon.ico">
 
-        <meta name="google-site-verification" content="fSdVe-xL70WGQ4EdrP7dZemxzq1oYbc_GI48aFY1_0w" />
-        <meta name="msvalidate.01" content="B038142E19DDC9427F7BB86F8022EE9C" />
+        <meta name="google-site-verification" content="wKe0FUPxeMe5MOtHzazSdnP73vaVd-vr_eveQPJ3cJU" />
+
+        <?php //<meta name="msvalidate.01" content="B038142E19DDC9427F7BB86F8022EE9C" /> ?>
 
         <link rel="stylesheet" href="/web/assets/css/app.css">
 
@@ -27,9 +28,6 @@
         <link rel="apple-touch-icon" sizes="120x120" href="/web/assets/img/touch-icon-iphone-retina.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/web/assets/img/touch-icon-ipad-retina.png" />
         <script src="/web/assets/js/modernizr.min.js"></script>
-
-        <?php //<script src="js/vendor/modernizr-2.6.2.min.js"></script> ?>
-        <?php //<meta property="twitter:account_id" content="32184368" /> ?>
     </head>
     <body>
         <!--[if lt IE 7]>
