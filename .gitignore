@@ -1,16 +1,18 @@
 *DS_Store
-wp-content/uploads/
-wp-content/blogs.dir/
-wp-content/upgrade/
-wp-content/backup-db/
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
+_flex/wp-content/uploads/
+_flex/wp-content/blogs.dir/
+_flex/wp-content/upgrade/
+_flex/wp-content/backup-db/
+_flex/wp-content/advanced-cache.php
+_flex/wp-content/wp-cache-config.php
 *.log
-wp-content/cache/
-wp-content/backups/
-sitemap.xml.gz
-wp-config.php
+_flex/wp-content/cache/
+_flex/wp-content/backups/
+_flex/sitemap.xml.gz
+_flex/wp-config.php
 
+
+*config.php
 
 *node_modules/
 *bower_components/

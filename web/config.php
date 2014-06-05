@@ -12,4 +12,4 @@ $password = "root";
 $dbname = "FlexHub";
 
 // Email to address //
-$emailtoaddress = "adamaoc@gmail.com";
+$emailtoaddress = "mayerbdom@yahoo.com";
