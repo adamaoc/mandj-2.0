@@ -1,5 +1,7 @@
 @import "settings";
 
+$imgborder: 5px solid #333;
+
 @import "components/bp-mixin",
 		"components/typography",
 		"components/pagesetup";
@@ -13,7 +15,8 @@ $global-radius: 5px;
 $light: #a0a0ad;
 $dark: #3b3b45;
 $orange: #ffae1a;
-
+$thumb-border-width: 5px;
+$thumb-border-color: #333;
 $primary-color: $orange;
 $secondary-color: $dark;
 $body-font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;

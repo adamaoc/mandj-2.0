@@ -27,7 +27,7 @@
 		@extend .columns; 
 		img {
 			max-width: 21.25em;
-			border: 5px solid #333;
+			border: $imgborder;
 			box-shadow: 1px 3px 8px #333;
 		}
 	}
@@ -114,7 +114,11 @@
 		}
 	}
 }
-
+.snippit-link {
+	img {
+		border: $imgborder;
+	}
+}
 /*
 ** Testimonial
 */

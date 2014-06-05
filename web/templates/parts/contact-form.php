@@ -37,7 +37,7 @@
 		<p><input type="submit" value="Send!" class="button radius right" /></p>
 	</div>
 </form>
-<div class="success">
+<div class="success" style="display: none;">
 	<h3>Awesome, Thanks!</h3>
 	<p>Thanks for shooting us an email. We'll be sure to get back with you ASAP!</p>
 </div>

@@ -7,26 +7,12 @@
 			$exteriorWorks = $allworks['exterior'];
 			foreach ($exteriorWorks as $work) : ?>
 				<li>
-					<img src="/web/assets/img/loading.gif" data-original="/web/assets/img/works/<?php echo $work['thumb']; ?>" class="lazy" width="300" alt="<?php echo $work['title']; ?>" />
-					<a href="<?php echo $work['link'] ?>" class="button secondary tiny">check out more <span class="more-btn">&raquo;</span></a>
+					<a href="<?php echo $work['link'] ?>" class="snippit-link">
+						<img src="/web/assets/img/loading.gif" data-original="/web/assets/img/works/<?php echo $work['thumb']; ?>" class="lazy" width="300" alt="<?php echo $work['title']; ?>" />
+						<button class="button secondary tiny">check out more <span class="more-btn">&raquo;</span></button>
+					</a>
 				</li>
 			<?php endforeach; ?>
-			<!-- <li>
-				<img src="/assets/img/loading.gif" data-original="http://lorempixel.com/300/300/" class="lazy" width="300" />
-				<a href="#" class="button secondary tiny">check out more <span class="more-btn">&raquo;</span></a>
-			</li>
-			<li>
-				<img src="/assets/img/loading.gif" data-original="http://lorempixel.com/300/300/" class="lazy" width="300" />
-				<a href="#" class="button secondary tiny">check out more <span class="more-btn">&raquo;</span></a>
-			</li>
-			<li>
-				<img src="/assets/img/loading.gif" data-original="http://lorempixel.com/300/300/" class="lazy" width="300" />
-				<a href="#" class="button secondary tiny">check out more <span class="more-btn">&raquo;</span></a>
-			</li>
-			<li>
-				<img src="/assets/img/loading.gif" data-original="http://lorempixel.com/300/300/" class="lazy" width="300" />
-				<a href="#" class="button secondary tiny">check out more <span class="more-btn">&raquo;</span></a>
-			</li> -->
 		</ul>
 	</div>
 </section>

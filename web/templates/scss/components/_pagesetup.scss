@@ -16,3 +16,14 @@
 	}
 
 }
+
+.img-wrap {
+	img {
+		border: $imgborder;
+	}
+}
+.clearing-thumbs {
+	li {
+		margin-bottom: 0.5em;
+	}
+}
