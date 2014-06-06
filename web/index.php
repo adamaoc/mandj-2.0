@@ -50,6 +50,7 @@ if($is_home) {
     require_once "templates/parts/exterior-snippit.php";
     require_once "templates/parts/testimonial.php";
 }
+
 require_once "templates/footer.php";
 ?>  
 
