@@ -40,7 +40,6 @@ RewriteRule ^local-home-contractor-in-heath-tx$ ./web/index.php [L]
 RewriteRule ^local-home-contractor-in-heath-tx/$ ./web/index.php [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ /web/index.php/works/?filename=$1 [NC,QSA,L]
-
+RewriteRule ^(.*)$ ./web/index.php/works/?filename=$1 [NC,QSA,L]
 
 </IfModule>

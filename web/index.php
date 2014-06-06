@@ -1,6 +1,6 @@
 <?php
 require_once "_flex/core/init.php";
-// require_once $_SERVER['DOCUMENT_ROOT']."/web/_flex/data/work-data.php";
+
 if($is_home) {
     require_once $_SERVER['DOCUMENT_ROOT']."/web/_flex/data/work-data.php";
     require_once "templates/header.php";

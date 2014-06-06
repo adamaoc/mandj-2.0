@@ -12,7 +12,7 @@ _flex/sitemap.xml.gz
 _flex/wp-config.php
 
 
-*config.php
+*./web/config.php
 
 *node_modules/
 *bower_components/

@@ -1,5 +1,5 @@
 <?php
-// FlexHub configs //
+// FlexHub configs // 
 $flexroot = '/flexhub/';
 $docArray = explode('/', $_SERVER['DOCUMENT_ROOT']);
 //print_r($docArray);
