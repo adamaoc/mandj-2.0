@@ -27,8 +27,8 @@ RewriteRule ^works/interior/$ ./web/index.php [L]
 RewriteRule ^works/exterior$ ./web/index.php [L]
 RewriteRule ^works/exterior/$ ./web/index.php [L]
 
-RewriteRule ^backend$ ./_flex/ [L]
-RewriteRule ^backend/$ ./_flex/ [l]
+RewriteRule ^backend$ ./_flex/index.php [L]
+RewriteRule ^backend/$ ./_flex/index.php [l]
 
 RewriteRule ^local-home-contractor-in-forney-tx$ ./web/index.php [L]
 RewriteRule ^local-home-contractor-in-forney-tx/$ ./web/index.php [L]
