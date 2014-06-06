@@ -29,6 +29,10 @@ RewriteRule ^works/exterior/$ ./web/index.php [L]
 
 RewriteRule ^backend$ ./_flex/index.php [L]
 RewriteRule ^backend/$ ./_flex/index.php [l]
+RewriteRule ^backend/wp-admin/setup-config.php$ ./_flex/wp-admin/setup-config.php [L]
+RewriteRule ^backend/wp-admin/install.php$ ./_flex/wp-admin/install.php [L]
+RewriteRule ^backend/wp-login.php$ ./_flex/wp-login.php [L]
+RewriteRule ^backend/wp-admin/$ ./_flex/wp-admin/index.php [L]
 
 RewriteRule ^local-home-contractor-in-forney-tx$ ./web/index.php [L]
 RewriteRule ^local-home-contractor-in-forney-tx/$ ./web/index.php [L]
