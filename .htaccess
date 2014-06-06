@@ -27,6 +27,9 @@ RewriteRule ^works/interior/$ ./web/index.php [L]
 RewriteRule ^works/exterior$ ./web/index.php [L]
 RewriteRule ^works/exterior/$ ./web/index.php [L]
 
+RewriteRule ^backend$ ./_flex/ [L]
+RewriteRule ^backend/$ ./_flex/ [l]
+
 RewriteRule ^local-home-contractor-in-forney-tx$ ./web/index.php [L]
 RewriteRule ^local-home-contractor-in-forney-tx/$ ./web/index.php [L]
 
@@ -40,6 +43,6 @@ RewriteRule ^local-home-contractor-in-heath-tx$ ./web/index.php [L]
 RewriteRule ^local-home-contractor-in-heath-tx/$ ./web/index.php [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ ./web/index.php/?filename=$1 [NC,QSA,L]
+RewriteRule ^(.*)$ ./web/index.php?filename=$1 [L]
 
 </IfModule>
