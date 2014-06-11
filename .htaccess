@@ -9,7 +9,7 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^$ ./web/index.php [L]
 RewriteRule ^/?$ ./web/index.php [L]
 
-RewriteRule ^_flex/$ ./_flex/ [L]
+RewriteRule ^admin/builder/$ ./web/_flex/builders/index.php [L]
 
 RewriteRule ^about$ ./web/index.php [L]
 RewriteRule ^about/$ ./web/index.php [L]

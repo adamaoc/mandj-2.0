@@ -1,6 +1,8 @@
 <?php
 
-function sitemapBuilder($navlinks, $blogs, $works, $locallinks) {
+function sitemapBuilder($footerlinks, $locallinks, $intwork, $extwork) {
+
+	$baseurl = "http://mandjconstructionremodeling.com";
 
 	$xmlblock = "";
 
@@ -8,9 +10,9 @@ function sitemapBuilder($navlinks, $blogs, $works, $locallinks) {
 	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 
 	// main navigation
-	foreach ($navlinks as $link) {
+	foreach ($footerlinks as $link) {
 		$xmlblock .= "<url>
-			<loc>"SITE_URL.$link."</loc>
+			<loc>".$baseurl.$link."</loc>
 			<lastmod>".date('Y-m-d')."</lastmod>
 			<changefreq>monthly</changefreq>
 			<priority>1</priority>
@@ -20,39 +22,29 @@ function sitemapBuilder($navlinks, $blogs, $works, $locallinks) {
 	// for local links
 	foreach ($locallinks as $link) {
 		$xmlblock .= "<url>
-			<loc>"SITE_URL.$link."</loc>
+			<loc>".$baseurl.$link."</loc>
 			<lastmod>".date('Y-m-d')."</lastmod>
 			<changefreq>monthly</changefreq>
 			<priority>1</priority>
 		</url>";
 	}
 
-	// for blog posts
-	foreach ($blogs as $blog) {
-		$postname = $blog['fname'];
-		$postname = explode('.', $postname);
-		$postname = $postname[0];
-
+	foreach ($extwork as $work) {
 		$xmlblock .= "<url>
-			<loc>"SITE_URL.$postname."/</loc>
+			<loc>".$baseurl.$work."/</loc>
 			<lastmod>".date('Y-m-d')."</lastmod>
 			<changefreq>monthly</changefreq>
 			<priority>1</priority>
 		</url>";
 	}
 
-	// for work section
-	foreach ($works as $work) {
-		$workname = $work['fname'];
-		$workname = explode('.', $workname);
-		$workname = $workname[0];
-
+	foreach ($intwork as $work) {
 		$xmlblock .= "<url>
-			<loc>".SITE_URL."/work/".$workname."/</loc>
+			<loc>".$baseurl.$work."/</loc>
 			<lastmod>".date('Y-m-d')."</lastmod>
 			<changefreq>monthly</changefreq>
 			<priority>1</priority>
-		</url>";	
+		</url>";
 	}
 
 	$xmlblock .= '</urlset>';
